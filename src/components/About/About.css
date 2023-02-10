@@ -1,0 +1,108 @@
+.about__wrapper {
+    color: var(--text-color);
+    padding: 0 50px 80px 50px;
+}
+
+.personal-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.about__wrapper h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.personal-infos .info-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+.personal-infos .info-list span {
+    opacity: 0.7;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.skill__wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 100px;
+}
+
+.skill__wrapper .skill-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__wrapper .skill-item .skill-item__img {
+    width: 120px;
+    height: 120px;
+    background-color: var(--toggle-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: all 0.8 ease;
+
+}
+
+.skill__wrapper .skill-item .skill-item__img-wrap {
+    width: auto;
+    height: 80px;
+}
+
+
+.skill__wrapper .skill-item .skill-item__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skill__wrapper .skill-item:hover .skill-item__img {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .personal-infos .info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .personal-infos .info-list li {
+        font-size: 14px;
+    }
+    .skill__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about__wrapper h3 {
+        font-size: 16px;
+    }
+
+    .skill__wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
