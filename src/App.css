@@ -1,3 +1,7 @@
+.App {
+    transition: all 0.5s ease;
+}
+
 .page-header {
     display: flex;
     justify-content: center;
@@ -33,6 +37,22 @@
     z-index: 9;
 }
 
+.App .theme-toggle-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    background-color: var(--toggle-color);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    z-index: 10;
+}
+
 @media screen and (max-width: 768px) {
     .page-header {
         padding: 5rem 1rem;
@@ -45,5 +65,15 @@
     .page-header>span {
         font-size: 65px;
         letter-spacing: 4px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page-header>span {
+        font-size: 3.6rem;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
     }
 }

@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import './SlideButton.css'
 
-const SlideButton = ({ icon, text, location, type }) => {
+const SlideButton = ({ icon, text, location, type, onSubmit }) => {
   return (
-    <button className='slideBtn' type={type}>
+    <button className='slideBtn' type={type} onSubmit={onSubmit}>
         <Link to={location}>
             <span className="btn-text">{text}</span>
             <span className="btn-icon">

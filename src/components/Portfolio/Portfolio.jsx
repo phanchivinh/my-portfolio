@@ -1,5 +1,5 @@
-import React from 'react'
 import projects from '../../assets/projects'
+
 
 
 import './Portfolio.css'

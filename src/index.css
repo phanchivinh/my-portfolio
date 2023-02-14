@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-:root {
+:root #dark{
     --nav-bg-color: #2b2a2a;
     --main-color: #ffb400;
     --body-bg: #111;
     --text-color: #fff;
     --toggle-color: #252525;
     --title-bg: hsla(0, 0%, 100%, 0.7);
-    ---reverse-color: #fff
+    ---reverse-color: #fff;
+}
+
+:root #light {
+    --nav-bg-color: #eee;
+    --main-color: #72b626;
+    --body-bg: #fff;
+    --text-color: #666;
+    --toggle-color: #000;
+    --title-bg: rgba(30,37,48,.7);
+    ---reverse-color: #000;
 }
 
 * {

@@ -20,10 +20,9 @@ const About = () => {
             <li><span>First Name:</span> Chi Vinh</li>
             <li><span>Nationality:</span> Vietnamese</li>
             <li><span>Sex:</span> Male</li>
-            <li><span>University:</span> Ton Duc Thang University</li>
             <li><span>Major:</span> Computer Science</li>
             <li><span>Address:</span> Ho Chi Minh city</li>
-            <li><span>Phone:</span> +84931817xxx</li>
+            <li><span>Phone:</span> +8493181xxxx</li>
             <li><span>Email:</span> phanchivinh.7275@gmail.com</li>
             <li><span>Languages:</span> Vietnamese, English</li>
           </ul>
