@@ -13,12 +13,18 @@ const Portfolio = () => {
         </div>
       <div className='portfolio__wrapper'>
         {projects.map((item, index) => (
-          <div className='portfolio__card' key={`portfolio-${index}`}>
+          <a 
+            className='portfolio__card'
+            key={`portfolio-${index}`}
+            href={item.demo}
+            target='_blank'
+            rel='noreferrer'
+          >
             <div className='portfolio__card-img'>
               <img src={item.thumnail} alt={item.name} />
             </div>
             <h3>{item.name}</h3>
-          </div>
+          </a>
         ))}
       </div>
     </section>

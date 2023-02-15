@@ -1,5 +1,6 @@
 
-import placeholderImg from '../../assets/images/placeholder-img.jpg'
+// import placeholderImg from '../../assets/images/placeholder-img.jpg'
+import myImg from '../../assets/images/me2.jpg'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import TypewriterComponent from 'typewriter-effect'
 
@@ -13,7 +14,7 @@ const Home = () => {
       <div className='color-block' />
       <div className='home__img'>
         <div className='home__img-wrapper'>
-          <img src={placeholderImg} alt='home img' />
+          <img src={myImg} alt='home img' />
         </div>
       </div>
       <div className='home__text'>

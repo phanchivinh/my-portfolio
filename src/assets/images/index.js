@@ -1,15 +1,10 @@
-export const project1Imgs = [
-    require('../images/minhtien-1.png'),
-    require('../images/minhtien-2.png'),
-    require('../images/minhtien-3.png'),
-    require('../images/minhtien-4.png'),
-]
+const images = {
+    project1: require('../images/minhtien-1.png'),
+    project2: require('../images/youtube-1.png'),
+    project3: require('../images/gericht-1.png'),
+}
 
-export const project2Imgs = [
-    require('../images/youtube-1.png'),
-    require('../images/youtube-2.png'),
-    require('../images/youtube-3.png'),
-]
+export default images
 
 export const skillLogos = [
     require('../images/logo-html-5.png'),
