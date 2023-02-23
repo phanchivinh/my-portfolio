@@ -26,12 +26,16 @@ const skills = [
         image: skillLogos[5],
     },
     {
-        name: 'Responsive Web Design',
+        name: 'SASS',
         image: skillLogos[6],
     },
     {
+        name: 'Responsive Web Design',
+        image: skillLogos[7],
+    },
+    {
         name: "Still updating...",
-        image: skillLogos[7]
+        image: skillLogos[8]
     },
 ]
 

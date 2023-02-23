@@ -12,8 +12,13 @@ const projects = [
         demo: 'https://y-media.netlify.app/',
     },
     {
-        name: 'Gericht Restaurant',
+        name: 'Fun Chat',
         thumnail: images.project3,
+        demo: 'https://funnchat.netlify.app/',
+    },
+    {
+        name: 'Gericht Restaurant',
+        thumnail: images.project4,
         demo: 'https://gericht-r.netlify.app/',
     },
 ]
